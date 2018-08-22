@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlizzPetApp.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,14 @@ namespace BlizzPetApp
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
-	}
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        private void pickFamily_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Master(pickFamily.SelectedIndex));
+        }
+    }
 }
