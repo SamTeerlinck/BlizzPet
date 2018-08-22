@@ -9,7 +9,7 @@
             <RowDefinition Height="2"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            
+
         </Grid.RowDefinitions>
 
         <Image Grid.RowSpan="3" Source="https://img1.etsystatic.com/219/0/15229090/il_fullxfull.1262916877_9x01.jpg"></Image>
@@ -24,7 +24,7 @@
                 <x:String>Family 2</x:String>
             </Picker.Items>
         </Picker>
-        
+
         <!--
         Images Pet Families:
             https://vignette.wikia.nocookie.net/wowwiki/images/9/97/Pet_type_aquatic.png

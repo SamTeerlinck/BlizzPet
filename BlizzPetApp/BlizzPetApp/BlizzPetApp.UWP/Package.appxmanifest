@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="2889b396-4c63-4ae2-84f8-4822264a1cf9"
-    Publisher="CN=fcad1a70-8a6d-40e5-8f82-3b1f43ee3bf4"
+    Name="d2356d02-848b-45a4-972a-4a61be61e4aa"
+    Publisher="CN=7a6c70c9-c421-4050-90cd-ead249acd923"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>BlizzPetApp.UWP</DisplayName>
-    <PublisherDisplayName>fcad1a70-8a6d-40e5-8f82-3b1f43ee3bf4</PublisherDisplayName>
+    <PublisherDisplayName>7a6c70c9-c421-4050-90cd-ead249acd923</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

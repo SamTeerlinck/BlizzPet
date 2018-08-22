@@ -1,0 +1,1 @@
+D:\DP2\BlizzPetApp\BlizzPetApp\BlizzPetApp.UWP\BlizzPetApp.UWP.csproj;x86

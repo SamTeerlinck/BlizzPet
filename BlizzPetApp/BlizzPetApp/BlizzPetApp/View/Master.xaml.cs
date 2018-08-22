@@ -12,18 +12,33 @@ namespace BlizzPetApp.View
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Master : ContentPage
 	{
-		public Master (int family)
+
+        public int Family { get; set; }
+
+		public Master ()
 		{
 			InitializeComponent ();
 
-            if (family == 0)
+            if (Family == 0)
             {
-                Label1.Text = "You chose family 1";
+                lblFamily.Text = "Family 1";
             }
-            if (family == 1)
+            else if (Family == 1)
             {
-                Label1.Text = "You chose family 2";
+                lblFamily.Text = "Family 2";
+            }
+            else if (Family == 2)
+            {
+                lblFamily.Text = "Family 3";
             }
         }
-	}
+
+        
+
+        void lvwPets_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            //Pet pet = lvwPets.SelectedItem as Pet;
+            //Navigation.PushAsync(new Detail(pet));
+        }
+    }
 }

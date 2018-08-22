@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace BlizzPetApp.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MasterDetail : MasterDetailPage
-	{
-		public MasterDetail ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MasterDetail : MasterDetailPage
+    {
+        public MasterDetail()
+        {
+            InitializeComponent();
+        }
+    }
 }

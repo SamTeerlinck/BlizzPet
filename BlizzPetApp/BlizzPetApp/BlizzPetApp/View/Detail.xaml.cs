@@ -9,12 +9,17 @@ using Xamarin.Forms.Xaml;
 
 namespace BlizzPetApp.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Detail : ContentPage
-	{
-		public Detail ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Detail : ContentPage
+    {
+        public Detail()
+        {
+            InitializeComponent();
+        }
+
+        private void btnFeedback_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

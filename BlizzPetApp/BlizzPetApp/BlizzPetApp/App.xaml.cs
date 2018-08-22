@@ -1,7 +1,6 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using BlizzPetApp.View;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace BlizzPetApp
@@ -13,7 +12,7 @@ namespace BlizzPetApp
 			InitializeComponent();
 
             MainPage = new NavigationPage(new BlizzPetApp.MainPage());
-		}
+        }
 
 		protected override void OnStart ()
 		{

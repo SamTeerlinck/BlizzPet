@@ -1,15 +1,15 @@
-﻿using BlizzPetApp.View;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using BlizzPetApp.View;
 
 namespace BlizzPetApp
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         public MainPage()
         {
             InitializeComponent();
@@ -17,7 +17,9 @@ namespace BlizzPetApp
 
         private void pickFamily_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Master(pickFamily.SelectedIndex));
+           Master master = new Master();
+           master.Family = pickFamily.SelectedIndex;
+           Navigation.PushAsync(master);
         }
     }
 }
