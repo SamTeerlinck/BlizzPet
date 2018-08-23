@@ -9,15 +9,15 @@ using Xamarin.Forms.Xaml;
 
 namespace BlizzPetApp.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Master : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Master : ContentPage
+    {
 
         public int Family { get; set; }
 
-		public Master ()
-		{
-			InitializeComponent ();
+        public Master()
+        {
+            InitializeComponent();
 
             if (Family == 0)
             {
@@ -33,7 +33,7 @@ namespace BlizzPetApp.View
             }
         }
 
-        
+
 
         void lvwPets_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {

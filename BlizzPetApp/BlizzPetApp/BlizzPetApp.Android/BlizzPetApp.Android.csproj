@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE24FB62-C9AE-4BE0-9B06-9C789D670BBE}</ProjectGuid>
+    <ProjectGuid>{638249F5-2C07-4DE4-AE0A-6AD7AF341BBB}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -92,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlizzPetApp\BlizzPetApp.csproj">
-      <Project>{302A0DD6-BC34-410C-9626-5218A8A9E9BD}</Project>
+      <Project>{B606EC5B-8502-403A-A4D2-52BDE6E61441}</Project>
       <Name>BlizzPetApp</Name>
     </ProjectReference>
   </ItemGroup>

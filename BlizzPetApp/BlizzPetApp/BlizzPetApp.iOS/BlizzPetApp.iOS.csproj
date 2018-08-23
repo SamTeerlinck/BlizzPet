@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{034952E7-3D89-46DB-B65D-5091AD8FC849}</ProjectGuid>
+    <ProjectGuid>{6D534080-EE7A-4AAF-BE98-47FA70E6C556}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -152,7 +152,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BlizzPetApp\BlizzPetApp.csproj">
-      <Project>{302A0DD6-BC34-410C-9626-5218A8A9E9BD}</Project>
+      <Project>{B606EC5B-8502-403A-A4D2-52BDE6E61441}</Project>
       <Name>BlizzPetApp</Name>
     </ProjectReference>
   </ItemGroup>

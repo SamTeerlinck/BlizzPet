@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{AD941338-BE31-4E0A-BEC1-D11A137506E0}</ProjectGuid>
+    <ProjectGuid>{A4AFD816-1846-41C7-8BC9-A97EEE998D88}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BlizzPetApp.UWP</RootNamespace>
@@ -148,7 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlizzPetApp\BlizzPetApp.csproj">
-      <Project>{302A0DD6-BC34-410C-9626-5218A8A9E9BD}</Project>
+      <Project>{B606EC5B-8502-403A-A4D2-52BDE6E61441}</Project>
       <Name>BlizzPetApp</Name>
     </ProjectReference>
   </ItemGroup>

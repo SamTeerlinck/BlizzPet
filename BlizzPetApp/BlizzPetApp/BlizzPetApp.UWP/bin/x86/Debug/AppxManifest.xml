@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="d2356d02-848b-45a4-972a-4a61be61e4aa" Publisher="CN=7a6c70c9-c421-4050-90cd-ead249acd923" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="fc75f06e-9f0b-482b-b08f-d5c304e6b620" Publisher="CN=f5f21d05-f2c9-446f-bf8f-e785b973e2de" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>BlizzPetApp.UWP</DisplayName>
-    <PublisherDisplayName>7a6c70c9-c421-4050-90cd-ead249acd923</PublisherDisplayName>
+    <PublisherDisplayName>f5f21d05-f2c9-446f-bf8f-e785b973e2de</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -44,7 +44,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
     <build:Item Name="OperatingSystem" Version="10.0.17134.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27703.2026" />
-    <build:Item Name="ProjectGUID" Value="{AD941338-BE31-4E0A-BEC1-D11A137506E0}" />
+    <build:Item Name="ProjectGUID" Value="{A4AFD816-1846-41C7-8BC9-A97EEE998D88}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27703.2026" />
