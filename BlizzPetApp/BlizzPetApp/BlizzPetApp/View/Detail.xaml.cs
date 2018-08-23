@@ -19,7 +19,7 @@ namespace BlizzPetApp.View
 
         private void btnFeedback_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Feedback());
         }
     }
 }

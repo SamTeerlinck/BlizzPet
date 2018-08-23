@@ -16,7 +16,7 @@
 
         <Label Text="Welcome to BlizzPet!" FontSize="Large" TextColor="Black" Grid.Row="1" HorizontalTextAlignment="Center" Margin="0,12"/>
 
-        <Label Text="A comprehensive list of pets in World of Warcraft." FontSize="Medium" TextColor="Black" Grid.Row="2" HorizontalTextAlignment="Center" VerticalOptions="End" Margin="0,0,0,12"/>
+        <Label Text="A comprehensive list of pets in World of Warcraft." FontSize="Medium" TextColor="Black" Grid.Row="2" HorizontalTextAlignment="Center" VerticalOptions="End" Margin="0,0,0,5"/>
 
         <Picker IsVisible="True" BackgroundColor="Silver" x:Name="pickFamily" Title="Choose a pet family." TextColor="White" Grid.Row="3" SelectedIndexChanged="pickFamily_SelectedIndexChanged" VerticalOptions="Start" Margin="20,0,20,0">
             <Picker.Items>

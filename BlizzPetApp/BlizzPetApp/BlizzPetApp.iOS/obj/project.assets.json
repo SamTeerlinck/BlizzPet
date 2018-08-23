@@ -723,11 +723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\BlizzPetApp.iOS.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\BlizzPetApp.iOS.csproj",
       "projectName": "BlizzPetApp.iOS",
-      "projectPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\BlizzPetApp.iOS.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\BlizzPetApp.iOS.csproj",
       "packagesPath": "C:\\Users\\samte\\.nuget\\packages\\",
-      "outputPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -744,8 +744,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
-              "projectPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
+            "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
+              "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
             }
           }
         }

@@ -766,11 +766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\BlizzPetApp.Android.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\BlizzPetApp.Android.csproj",
       "projectName": "BlizzPetApp.Android",
-      "projectPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\BlizzPetApp.Android.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\BlizzPetApp.Android.csproj",
       "packagesPath": "C:\\Users\\samte\\.nuget\\packages\\",
-      "outputPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -787,8 +787,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
-              "projectPath": "D:\\DP2\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
+            "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
+              "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
             }
           }
         }
