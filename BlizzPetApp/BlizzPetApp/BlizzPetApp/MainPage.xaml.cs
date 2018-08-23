@@ -5,11 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using BlizzPetApp.View;
+using BlizzPetApp.Repositories;
+using BlizzPetApp.Models;
 
 namespace BlizzPetApp
 {
     public partial class MainPage : ContentPage
     {
+
+        public PetRepository _petRepo { get; set; }
+
+        public List<Pet> _pets { get; set; }
+
         public MainPage()
         {
             InitializeComponent();

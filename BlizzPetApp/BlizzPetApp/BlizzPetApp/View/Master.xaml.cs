@@ -7,11 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using BlizzPetApp.View;
+using BlizzPetApp.Repositories;
+using BlizzPetApp.Models;
+
 namespace BlizzPetApp.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Master : ContentPage
     {
+
+        public PetRepository _petRepo { get; set; }
+
+        public List<Pet> _pets { get; set; }
 
         public string Family
         {
@@ -23,9 +31,17 @@ namespace BlizzPetApp.View
         {
             InitializeComponent();
 
+            _petRepo = new PetRepository();
+            GetPets();
+
         }
 
-
+        private async void GetPets()
+        {
+            string family = lblFamily.Text;
+            _pets = await _petRepo.GetAllPets(family.ToLower());
+            lvwPets.ItemsSource = _pets;
+        }
 
         void lvwPets_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {

@@ -4,6 +4,7 @@ D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Deb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\Java.Interop.dll
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\Mono.Android.dll
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\mscorlib.dll
+D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\System.Core.dll
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\System.dll
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\android\assets\System.Xml.dll

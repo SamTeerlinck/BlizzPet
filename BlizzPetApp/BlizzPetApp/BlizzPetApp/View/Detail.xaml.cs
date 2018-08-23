@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using BlizzPetApp.View;
+using BlizzPetApp.Repositories;
+using BlizzPetApp.Models;
+
 namespace BlizzPetApp.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
