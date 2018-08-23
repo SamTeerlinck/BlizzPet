@@ -17,8 +17,13 @@ namespace BlizzPetApp
 
         private void pickFamily_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string family = pickFamily.SelectedItem as string;
+
+            if (family == null)
+                return;
+
             Master master = new Master();
-            master.Family = pickFamily.SelectedIndex;
+            master.Family = family;
             Navigation.PushAsync(master);
         }
     }

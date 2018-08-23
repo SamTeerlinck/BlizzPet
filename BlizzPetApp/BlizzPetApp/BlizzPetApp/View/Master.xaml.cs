@@ -13,24 +13,16 @@ namespace BlizzPetApp.View
     public partial class Master : ContentPage
     {
 
-        public int Family { get; set; }
+        public string Family
+        {
+            get { return this.lblFamily.Text; }
+            set { this.lblFamily.Text = value; }
+        }
 
         public Master()
         {
             InitializeComponent();
 
-            if (Family == 0)
-            {
-                lblFamily.Text = "Family 1";
-            }
-            else if (Family == 1)
-            {
-                lblFamily.Text = "Family 2";
-            }
-            else if (Family == 2)
-            {
-                lblFamily.Text = "Family 3";
-            }
         }
 
 

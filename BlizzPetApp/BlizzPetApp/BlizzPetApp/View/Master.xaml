@@ -5,7 +5,7 @@
              Title="List of Pets">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="lblFamily" Text="Pet family" FontSize="Large" TextColor="Black" />
+            <Label x:Name="lblFamily" Text="Pet family" FontSize="Large" TextColor="Black" HorizontalOptions="Center" />
             <ListView x:Name="lvwPets" SeparatorColor="Gray" ItemSelected="lvwPets_ItemSelected" >
                 <ListView.ItemTemplate>
                     <DataTemplate>

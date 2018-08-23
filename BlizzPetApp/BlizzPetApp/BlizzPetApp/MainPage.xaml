@@ -20,8 +20,16 @@
 
         <Picker IsVisible="True" BackgroundColor="Silver" x:Name="pickFamily" Title="Choose a pet family." TextColor="White" Grid.Row="3" SelectedIndexChanged="pickFamily_SelectedIndexChanged" VerticalOptions="Start" Margin="20,0,20,0">
             <Picker.Items>
-                <x:String>Family 1</x:String>
-                <x:String>Family 2</x:String>
+                <x:String>Aquatic</x:String>
+                <x:String>Beast</x:String>
+                <x:String>Critter</x:String>
+                <x:String>Dragonkin</x:String>
+                <x:String>Elemental</x:String>
+                <x:String>Flying</x:String>
+                <x:String>Humanoid</x:String>
+                <x:String>Magic</x:String>
+                <x:String>Mechanical</x:String>
+                <x:String>Undead</x:String>
             </Picker.Items>
         </Picker>
 

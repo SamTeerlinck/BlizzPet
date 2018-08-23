@@ -199,6 +199,7 @@ D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Deb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\Xamarin.Forms.Core.pdb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.pdb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\bin\Debug\BlizzPetApp.Android.dll
+D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\BlizzPetApp.pdb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\BlizzPetApp.Android.dll.mdb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 D:\Documents\GitHub\BlizzPet\BlizzPetApp\BlizzPetApp\BlizzPetApp.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
